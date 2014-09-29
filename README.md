@@ -4,8 +4,12 @@ SelfSizeCellDemo
 一个演示Demo，利用iOS8的新特性来实现UITableViewCell的高度根据内容自动控制
 
 通过设置
+<br/>
 <code>
 self.tableView.estimatedRowHeight = 68.0;
+</code>
+<br/>
+<code>
 self.tableView.rowHeight = UITableViewAutomaticDimension;
 </code>
 配合AutoLayout来实现该功能。
