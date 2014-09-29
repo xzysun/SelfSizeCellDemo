@@ -17,6 +17,6 @@ self.tableView.rowHeight = UITableViewAutomaticDimension;
 
 需要注意在InterfaceBuilder中设置Label控件的Content Hugging Pirority和Content Compression Resistance Priority来保证自动调整高度。
 
-P.S. 两个字段的说明
+P.S. 两个字段的说明:<br/>
 Hugging priority 确定view有多大的优先级阻止自己变大。
 Compression Resistance priority确定有多大的优先级阻止自己变小。
