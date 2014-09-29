@@ -12,6 +12,7 @@ self.tableView.estimatedRowHeight = 68.0;
 <code>
 self.tableView.rowHeight = UITableViewAutomaticDimension;
 </code>
+<br/>
 配合AutoLayout来实现该功能。
 
 需要注意在InterfaceBuilder中设置Label控件的Content Hugging Pirority和Content Compression Resistance Priority来保证自动调整高度。
